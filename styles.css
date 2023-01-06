@@ -87,3 +87,11 @@ s {
     color:grey;
 
 }
+
+.banner {
+    margin-top: 4vh;
+    height: 8vh;
+    background-color: burlywood;
+    width: 100%;
+
+}
