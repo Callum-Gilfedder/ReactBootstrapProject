@@ -95,3 +95,32 @@ s {
     width: 100%;
 
 }
+
+.footer {
+    background-color: grey;
+    margin-top: 5vh;
+    width: 100vw;
+    height: 33vh;
+    position: absolute;
+    left: 0px;
+}
+
+.footer-col {
+    margin-top: 2vh;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.lic {
+    margin-top: 8vh;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgray;
+    font-size: large;
+}
+
+
+.navbar {
+    font-family: 'Playfair Display', serif; !i
+}
