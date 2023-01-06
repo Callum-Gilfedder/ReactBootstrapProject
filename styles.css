@@ -44,8 +44,20 @@ img {
     z-index: 1;
 }
 
-.col {
-    background-color: black;
-    height: 60vh;
+.col-2 {
+    background-color: green;
+    height: 45vh;
+    border: solid;
+}
+
+.display-3 {
+    margin-top: 2vh;
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+}
+
+.small-img {
+    width: 75%;
+    height: 50%;
 }
 
