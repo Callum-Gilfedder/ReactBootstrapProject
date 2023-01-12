@@ -4,14 +4,16 @@ import book3 from './book3.jpg'
 import book4 from './book4.jpg'
 import img1 from './img1.webp'
 import img2 from './img2.jpg'
-
-
-
-
+import { useState } from 'react'
 
 
 
 export default function Row() {
+
+    const [cardData, setCardData] = useState(
+        {title: "1984", author: "George Orwell", type: "Hardback & Paperback", oldPrice: "£15.00", newPrice: "£10.00"}
+    )
+
     return (
         <div className="container">
           <div className="display-3" >Bestsellers  </div>
@@ -21,13 +23,13 @@ export default function Row() {
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
-                    <p>1984</p>
+                    <p> {cardData.title}</p>
                   </blockquote>
                   <figcaption className="blockquote-footer">
-                    <cite title="Source Title">George Orwell</cite>
+                    <cite title="Source Title"> { cardData.author} </cite>
                   </figcaption>
-                  <div className="bottom-text"> Hardback & Paperback </div> 
-                  <div className="bottom-text"> <s>£15.00</s> £10.00</div> 
+                  <div className="bottom-text"> { cardData.type } </div> 
+                  <div className="bottom-text"> <s> { cardData.oldPrice}</s> {cardData.newPrice} </div> 
                   <button type="button" className="btn btn-outline-dark btn-sm">Buy Now</button>
 
                   <button type="button" className="btn btn-outline-dark btn-sm">Add to Basket</button>
