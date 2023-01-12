@@ -1,10 +1,20 @@
+import book1 from './book1.jpg'
+import book2 from './book2.jpg'
+import book3 from './book3.jpg'
+import book4 from './book4.jpg'
+import img1 from './img1.webp'
+import img2 from './img2.jpg'
+
+
+
+
 export default function Row() {
     return (
         <div className="container">
           <div className="display-3" >Bestsellers  </div>
           <div className="row align-items-start">
             <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
-              <img src="book1.jpg" className="small-img" alt=""/>
+              <img src={book1} className="small-img" alt=""/>
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
@@ -26,7 +36,7 @@ export default function Row() {
 
             </div>
             <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
-              <img src="book2.jpg" className="small-img" alt=""/>
+              <img src={book2} className="small-img" alt=""/>
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
@@ -46,7 +56,7 @@ export default function Row() {
 
             </div>
             <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
-              <img src="book3.jpg" className="small-img" alt=""/>
+              <img src={book3} className="small-img" alt=""/>
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
@@ -66,7 +76,7 @@ export default function Row() {
 
             </div>
             <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
-              <img src="book4.jpg" className="small-img" alt=""/>
+              <img src={book4} className="small-img" alt=""/>
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
@@ -86,7 +96,7 @@ export default function Row() {
 
             </div>
             <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
-              <img src="book1.jpg" className="small-img" alt=""/>
+              <img src={book1} className="small-img" alt=""/>
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
@@ -106,7 +116,7 @@ export default function Row() {
 
             </div>
             <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
-              <img src="book2.jpg" className="small-img" alt=""/>
+              <img src={book2} className="small-img" alt=""/>
               <blockquote className="blockquote">
                 <figure className="text-center">
                   <blockquote className="blockquote">
