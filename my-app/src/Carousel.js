@@ -23,8 +23,5 @@ export default function Carousel() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-
-
-
     )
 }
