@@ -6,9 +6,9 @@ export default function MainContent() {
     return (
         <div>
             <Carousel />
-            <Row />
+            <Row rowtitle = "Bestsellers"/>
             <Banner />
-            <Row />
+            <Row rowtitle = "Classics" />
             <Banner />
         </div>
     )

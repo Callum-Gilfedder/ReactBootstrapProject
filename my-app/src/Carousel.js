@@ -8,7 +8,7 @@ export default function Carousel() {
             </div>
             <div className="carousel-item">
               <img src="img1.webp" className="d-block w-100" alt=""/>
-              <div className="display-1" >WINTER COLLECTION</div>
+              <div className="display-1" ></div>
             </div>
             <div className="carousel-item">
               <img src="img2.webp" className="d-block w-100" alt=""/>

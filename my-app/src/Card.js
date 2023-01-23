@@ -12,7 +12,7 @@ export default function Card(props) {
     return (
                      <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
 
-                    <img src={book1} className="small-img" alt=""/>
+                    <img src={props.image} className="small-img" alt=""/>
                     <blockquote className="blockquote">
                         <figure className="text-center">
                         <blockquote className="blockquote">
