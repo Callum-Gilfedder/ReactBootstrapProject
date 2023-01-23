@@ -101,13 +101,13 @@ s {
     background-color: grey;
     margin-top: 25vh;
     width: 100vw;
-    height: 33vh;
+    height: 35vh;
     position: absolute;
     left: 0px;
 }
 
 .footer-col {
-    margin-top: 2vh;
+    margin-top: 0vh;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
@@ -129,3 +129,42 @@ s {
 hr {
     opacity: 15%;
 }
+
+.offcanvas-body {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.offcanvas-title {
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+.hover-add-basket {
+    position: absolute;
+    width: 5vh;
+    height: 5vh;
+    margin-left: 8.9vw;
+    
+
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+.offcanvas-hr{
+    margin-top: 0;
+}
+
+

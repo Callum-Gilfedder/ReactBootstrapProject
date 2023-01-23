@@ -9,16 +9,20 @@ export default function MainContent() {
             <Row rowtitle = "New In"/>
             <Row rowtitle = "Best Sellers" />
             <Row rowtitle = "Classics" />
+
             <Row rowtitle = "Collection" />
 
             {/* OffCanvas */}
-            <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-            <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Your Basket</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <div className="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div className="offcanvas-header">
+            <h5 className="offcanvas-title" id="offcanvasScrollingLabel">Your Basket</h5>
+            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-            <p>Body of offcanvas</p>
+            <hr className="offcanvas-hr"></hr>
+
+            <div className="offcanvas-body">
+
+            <div className="offcanvas-title">Total Cost: £100</div>
             </div>
             </div>
 
