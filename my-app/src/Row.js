@@ -14,7 +14,7 @@ export default function Row(props) {
 
     return (
         <div className="container">
-        
+        <hr></hr>
         <div className="display-3 d-inline"> {props.rowtitle}  </div> 
 
 

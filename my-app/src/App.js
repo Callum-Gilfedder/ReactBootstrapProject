@@ -4,7 +4,6 @@ import Footer from './Footer.js'
 import MainContent from './MainContent.js'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Contact from './Contact.js'
-import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
 
 
