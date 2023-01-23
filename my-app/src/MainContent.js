@@ -6,10 +6,12 @@ export default function MainContent() {
     return (
         <div>
             <Carousel />
-            <Row rowtitle = "Bestsellers"/>
-            <Banner />
+            <Row rowtitle = "New In"/>
+            <Row rowtitle = "Best Sellers" />
             <Row rowtitle = "Classics" />
-            <Banner />
+            <Row rowtitle = "Collection" />
+
+
         </div>
     )
 }

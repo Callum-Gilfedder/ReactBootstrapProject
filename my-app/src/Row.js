@@ -15,8 +15,7 @@ export default function Row(props) {
     return (
         <div className="container">
         
-        <div className="display-3 d-inline" > {props.rowtitle}  </div> 
-        <button type="button" class="btn btn-success btn-sm d-inline">See More!</button>
+        <div className="display-3 d-inline"> {props.rowtitle}  </div> 
 
 
             <div className="row align-items-start">
