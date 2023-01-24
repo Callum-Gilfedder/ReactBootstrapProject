@@ -27,7 +27,7 @@ body {
 .carousel-item {
     height: 40vh;
     width: 100vw;
-    background-color: burlywood;
+    background-color: lightblue;
 }   
 
 img {
@@ -185,7 +185,7 @@ hr {
     display: inline;
     top: 6vh;
     left: 28vw;
-    max-width: 25vw;
+    max-width: 30vw;
     font-family: 'Playfair Display', serif; 
     color: white;
     text-shadow: 1px 1px 1px #000000;
@@ -208,7 +208,7 @@ hr {
     display: inline;
     top: 18vh;
     left: 45vw;
-    max-width: 25vw;
+    max-width: 30vw;
     font-family: 'Playfair Display', serif; 
     color: whitesmoke;
     text-shadow: 1px 1px 1px #000000;
@@ -220,7 +220,7 @@ hr {
     position: absolute;
     top: -40vh;
     z-index: 0;
-    opacity: 30%;
+    opacity: 10%;
     z-index: 0;
 }
 
