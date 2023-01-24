@@ -236,3 +236,8 @@ svg:hover {
 i:hover {
     color: lightgrey;
 }
+
+.nav-link {
+    font-family: 'Playfair Display', serif; 
+    color: darkslategrey;
+}
