@@ -21,28 +21,28 @@ export default function Navbar() {
 
         <div class="vr"></div>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#">SPECIAL EDITIONS</a>
+            <a class="nav-link" aria-current="page" href="#">SPECIAL EDITIONS</a>
         </li>
 
         <div class="vr"></div>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#">FICTION</a>
+            <a class="nav-link" aria-current="page" href="#">FICTION</a>
         </li>
         <div class="vr"></div>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#">NON-FICTION</a>
+            <a class="nav-link" aria-current="page" href="#">NON-FICTION</a>
         </li>
         <div class="vr"></div>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#">BIOGRAPHIES</a>
+            <a class="nav-link " aria-current="page" href="#">BIOGRAPHIES</a>
         </li>
         <div class="vr"></div>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#">HISTORY</a>
+            <a class="nav-link " aria-current="page" href="#">HISTORY</a>
         </li>
         <div class="vr"></div>
         <li class="nav-item">
-            <a class="nav-link disabled" aria-current="page" href="#">KIDS</a>
+            <a class="nav-link" aria-current="page" href="#">KIDS</a>
         </li>
         <div class="vr"></div>
 

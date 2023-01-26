@@ -9,6 +9,7 @@ export default function MainContent() {
             
             <Carousel />
             <Row rowtitle = "New In"/>
+            
             <Row rowtitle = "Best Sellers" />
             <Row rowtitle = "Classics" />
 
