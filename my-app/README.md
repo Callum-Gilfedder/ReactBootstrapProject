@@ -8,6 +8,8 @@ as a large image of it.
 * Add check-out section where you can enter delivery details and card information.
 * Payment processing seems like over-kill for this kind of project?
 * Make sure the website is fully responsive.
+* Add a Categories row in the WOB style. This will change up the repetitiveness of the normal rows.
+
 
 Recommandations taken from ChatGPT: 
 

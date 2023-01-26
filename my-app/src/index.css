@@ -249,7 +249,18 @@ li {
     list-style-type: none;
   }
 
-.bi {
+.logos {
     margin-left: 1vw;
     margin-right: 1vw;
 }
+
+.bi {
+    margin-right: 0vw;
+    margin-bottom: 0.5vh;
+}
+
+.search-button {
+    margin-right: 1vw;
+}
+
+
