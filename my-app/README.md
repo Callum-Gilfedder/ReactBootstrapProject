@@ -10,7 +10,6 @@ as a large image of it.
 * Make sure the website is fully responsive.
 
 Recommandations taken from ChatGPT: 
-To create a practice ecommerce book website as a front-end React application, the following features are typically required to make it roughly good enough to showcase your skills and potentially help you get a junior software development job:
 
 Product catalog: A feature that allows users to browse and search for books, view detailed information about each book, and add items to their shopping cart. This should be built using React components and should be able to efficiently update and re-render as the user interacts with the catalog.
 
@@ -32,4 +31,3 @@ Accessibility: A feature that allows the website to be easily navigable and acce
 
 Testing: A feature that allows the website to be thoroughly tested and debugged to ensure that it works correctly and is free of bugs. This could be achieved by using popular libraries such as Jest and Enzyme for testing React components.
 
-Please keep in mind that this is a basic list of features that are typically required for a React-based ecommerce book website, and there may be additional requirements depending on the specific requirements of the project.
