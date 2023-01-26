@@ -31,7 +31,7 @@ export default function Card(props) {
                         </figcaption>
                         <div className="bottom-text"> { props.type } </div> 
                         <div className="bottom-text"> <s> { props.oldPrice}</s> {props.newPrice} </div> 
-                        <button type="button" className="btn btn-outline-dark btn-sm" style={{marginRight: "1rem"}}>Buy Now</button>
+                        <button type="button" className="btn btn-outline-dark btn-sm" style={{marginRight: "1rem"}}>Info</button>
 
                         <button type="button" className="btn btn-outline-dark btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Add to Basket</button>
 

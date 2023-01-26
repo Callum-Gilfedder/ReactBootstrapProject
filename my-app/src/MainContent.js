@@ -12,6 +12,7 @@ export default function MainContent() {
             <Row rowtitle = "New In"/>
             
             <Row rowtitle = "Best Sellers" />
+            
             <Row rowtitle = "Classics" />
 
             <Row rowtitle = "Collection" />

@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import Contact from './Contact.js'
 import "bootstrap/dist/js/bootstrap";
 import NavbarMinor from './NavbarMinor.js'
-
+import Categories from './Categories.js'
+import Login from './Login.js'
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
 
           <Route path="/" element= {<MainContent />}></Route>
 
-          <Route path="/contact" element= {<Contact />}> </Route>
+          <Route path="/contact" element= {<Contact />}></Route>
 
+          <Route path="/categories" element= {<Categories category=""/>}></Route>
+  
+          <Route path="/login" element= {<Login />}></Route>
 
         </Routes>
         <Footer />

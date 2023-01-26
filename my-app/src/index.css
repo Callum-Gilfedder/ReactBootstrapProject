@@ -263,4 +263,14 @@ li {
     margin-right: 1vw;
 }
 
+.login-container {
+    width: 33vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding: 2rem;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
 
