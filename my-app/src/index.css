@@ -232,6 +232,9 @@ svg:hover {
     color: grey;
 
 }
+i {
+    font-size: 0.9rem;
+}
 
 i:hover {
     color: lightgrey;
@@ -240,4 +243,13 @@ i:hover {
 .nav-link {
     font-family: 'Playfair Display', serif; 
     color: darkslategrey;
+}
+
+li {
+    list-style-type: none;
+  }
+
+.bi {
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
