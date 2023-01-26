@@ -273,4 +273,15 @@ li {
     border-radius: 20px;
 }
 
+.offcanvas-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.basket-item-container {
+    margin-left: 10%;
+    width: 80%;
+    height: 25%;
+    background-color: black;
+    margin-bottom: 2%;
+}
 
