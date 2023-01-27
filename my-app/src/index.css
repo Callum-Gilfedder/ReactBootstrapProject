@@ -99,7 +99,7 @@ s {
 
 .footer {
     background-color: grey;
-    margin-top: 25vh;
+    margin-top: 5vh;
     width: 100vw;
     height: 35vh;
     position: absolute;
@@ -296,6 +296,7 @@ li {
     object-fit: contain;
     height: 50vh;
     border-radius: 0 200px 200px 0;
+    z-index: 0;
 }
 
 .contact-cards-container {
@@ -309,7 +310,7 @@ li {
     bottom: 5vw;
     background-color: rgb(255, 255, 255);
     width: 40vw;
-    height: 35vh;
+    height: 40vh;
     margin-left: 2vw;
     margin-bottom: 2vh;
     display: inline-block;
@@ -334,6 +335,7 @@ li {
     display: flex;
     align-items:flex-end;
     justify-content: center;
+
 }
 
 .bi-telephone-fill {
@@ -349,6 +351,14 @@ li {
     font-family: 'Playfair Display', serif; 
 }
 
+.contact-card-title-large {
+    position: absolute;
+    font-size: 5rem;
+    z-index: 1;
+    left: 40%;
+    top: 25%;
+}
+
 .bi {
     width: 1.25rem;
     height: 1.25rem;
@@ -356,4 +366,13 @@ li {
 
 .contact-card-buttons {
     width: 80%;
+    display: block;
+}
+
+.contact-card-text {
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    max-width: 50%;
+    
 }
