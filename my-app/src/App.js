@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap";
 import NavbarMinor from './NavbarMinor.js'
 import Categories from './Categories.js'
 import Login from './Login.js'
+import DetailsPage from './DetailsPage';
 
 function App() {
   return (
@@ -24,6 +25,14 @@ function App() {
           <Route path="/categories" element= {<Categories category=""/>}></Route>
   
           <Route path="/login" element= {<Login />}></Route>
+
+          <Route path="/1984" element= {<DetailsPage title="1984" />}></Route>
+          <Route path="/TheGreatGatsby" element= {<DetailsPage title="The Great Gatsby" />}></Route>
+          <Route path="/TheLittlePrince" element= {<DetailsPage title="The Little Prince" />}></Route>
+          <Route path="/ImGladMyMomDied" element= {<DetailsPage title="Im Glad My Mom Died" />}></Route>
+          <Route path="/TheCatcherInTheRye" element= {<DetailsPage title="The Catcher In The Rye" />}></Route>
+          <Route path="/AClockworkOrange" element= {<DetailsPage title="A Clockwork Orange" />}></Route>
+
 
         </Routes>
         <Footer />
