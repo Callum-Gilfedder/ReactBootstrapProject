@@ -1,11 +1,11 @@
-import book1 from './book1.jpg'
-import book2 from './book2.jpg'
-import book3 from './book3.jpg'
-import book4 from './book4.jpg'
-import book5 from './book5.jpg'
-import book6 from './book6.jpg'
-import img1 from './img1.webp'
-import img2 from './img2.jpg'
+import book1 from './images/book1.jpg'
+import book2 from './images/book2.jpg'
+import book3 from './images/book3.jpg'
+import book4 from './images/book4.jpg'
+import book5 from './images/book5.jpg'
+import book6 from './images/book6.jpg'
+import img1 from './images/img1.webp'
+import img2 from './images/img2.jpg'
 import { useState } from 'react'
 import Card from './Card.js'
 
@@ -15,7 +15,7 @@ export default function Row(props) {
     return (
         <div className="container">
         <hr></hr>
-        <div className="display-3 d-inline"> {props.rowtitle} </div>
+        <div className="display-3 d-inline"> {props.rowtitle}  </div>
 
 
             <div className="row align-items-start">

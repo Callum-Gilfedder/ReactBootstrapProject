@@ -1,4 +1,4 @@
-import contactImage from "./contact-image.webp"
+import contactImage from "./images/contact-image.webp"
 
 export default function Contact () {
     return (

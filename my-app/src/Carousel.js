@@ -1,8 +1,8 @@
-import CarouselImageBook from "./CarouselImageBook.png" 
-import img1 from "./img1.webp"
-import img2 from "./img2.webp"
-import CarouselImageBook2 from "./CarouselImageBook2.png"
-import CarouselImageBook3 from "./CarouselImageBook3.png"
+import CarouselImageBook from "./images/CarouselImageBook.png" 
+import img1 from "./images/img1.webp"
+import img2 from "./images/img2.webp"
+import CarouselImageBook2 from "./images/CarouselImageBook2.png"
+import CarouselImageBook3 from "./images/CarouselImageBook3.png"
 
 
 export default function Carousel() {

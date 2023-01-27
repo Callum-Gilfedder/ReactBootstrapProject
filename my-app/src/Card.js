@@ -2,23 +2,26 @@
 
 
 import { useState, useEffect } from 'react'
-import book1 from './book1.jpg'
-import book2 from './book2.jpg'
-import book3 from './book3.jpg'
-import book4 from './book4.jpg'
-import img1 from './img1.webp'
-import img2 from './img2.jpg'
+import { Link } from 'react-router-dom'
+import book1 from './images/book1.jpg'
+import book2 from './images/book2.jpg'
+import book3 from './images/book3.jpg'
+import book4 from './images/book4.jpg'
+import img1 from './images/img1.webp'
+import img2 from './images/img2.jpg'
 
 
 
 export default function Card(props) {
     const [isHovered, setIsHovered] = useState(false)
 
+
     return (        
                     <div className="col-2 col-xxl-2 col-md-3  col-sm-6">
                     {isHovered && <div className="hover-add-basket" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} style={{ transition: 'opacity 0.3s ease-in', opacity: isHovered ? 1 : 0}} > <button type="button" class="btn btn-secondary btn-lg"> &#10009; </button></div>  }
-
-                    <img src={props.image} className="small-img" alt="" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} />
+                        
+                    
+                    <Link to={"/"+ props.title.replace(/\s+/g, '')} style={{textDecoration: "none", color: "black" }}><img src={props.image} className="small-img" alt="" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} /></Link>
                     <blockquote className="blockquote">
                         <figure className="text-center">
                         <blockquote className="blockquote">
