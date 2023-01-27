@@ -307,10 +307,25 @@ li {
     position: relative;
     left: 2vw;
     bottom: 5vw;
-    background-color: grey;
+    background-color: rgb(232, 232, 232);
     width: 40vw;
     height: 35vh;
     margin-left: 2vw;
     margin-bottom: 2vh;
     display: inline-block;
+    border-radius: 20px;
+}
+
+.contact-card-inner-container-upper {
+    width: 80%;
+    height: 50%;
+    background-color: black;
+    margin-left: 10%;
+}
+
+.contact-card-inner-container-lower {
+    width: 80%;
+    height: 50%;
+    background-color: red;
+    margin-left: 10%;
 }
