@@ -307,25 +307,53 @@ li {
     position: relative;
     left: 2vw;
     bottom: 5vw;
-    background-color: rgb(232, 232, 232);
+    background-color: rgb(255, 255, 255);
     width: 40vw;
     height: 35vh;
     margin-left: 2vw;
     margin-bottom: 2vh;
     display: inline-block;
-    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2px;
 }
 
 .contact-card-inner-container-upper {
     width: 80%;
-    height: 50%;
-    background-color: black;
+    height: 30%;
     margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .contact-card-inner-container-lower {
     width: 80%;
-    height: 50%;
-    background-color: red;
+    height: 55%;
     margin-left: 10%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.bi-telephone-fill {
+    width: 2.0rem;
+    height: 2.0rem;
+    color: black;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.contact-card-title {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif; 
+}
+
+.bi {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.contact-card-buttons {
+    width: 80%;
 }
