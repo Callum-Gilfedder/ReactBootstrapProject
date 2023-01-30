@@ -378,7 +378,7 @@ li {
 }
 
 .details-container {
-    margin-top: 5rem;
+    margin-top: 4rem;
     margin-bottom: 5rem;
 }
 
@@ -416,4 +416,10 @@ li {
     border: solid 3px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+}
+
+.login-container {
+    width: 75vh;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

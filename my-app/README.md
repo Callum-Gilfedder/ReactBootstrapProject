@@ -9,6 +9,7 @@ as a large image of it.
 * Payment processing seems like over-kill for this kind of project?
 * Make sure the website is fully responsive.
 * Add a Categories row in the WOB style. This will change up the repetitiveness of the normal rows.
+* Update images to higher-resolution ones so that when they navigate to details page the images aren't pixelated.
 
 
 Recommandations taken from ChatGPT: 

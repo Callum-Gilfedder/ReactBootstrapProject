@@ -1,14 +1,9 @@
 
 
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import book1 from './images/book1.jpg'
-import book2 from './images/book2.jpg'
-import book3 from './images/book3.jpg'
-import book4 from './images/book4.jpg'
-import img1 from './images/img1.webp'
-import img2 from './images/img2.jpg'
+
 
 
 
