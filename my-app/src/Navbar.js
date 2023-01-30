@@ -27,9 +27,6 @@ export default function Navbar() {
                     <li><a className="dropdown-item" href="#"> <Link to="/categories" style={{textDecoration: "none", color: "black" }}> View All </Link></a></li>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Best Sellers</a></li>
-                      <li><hr class="dropdown-divider"></hr></li>
-
                       <li><a className="dropdown-item" href="#">Crime</a></li>
                       <li><hr class="dropdown-divider"></hr></li>
 
