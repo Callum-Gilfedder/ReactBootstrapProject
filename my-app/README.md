@@ -2,17 +2,17 @@
 * Add login / sign-up.
 * User authentication? May require some form of a backend.
 * Maybe implement a book API so they can actually search for books.
-* Add a page that links to each individual book so you can actually view information about the book as well
-as a large image of it.
 * Create functioning basket section.
 * Add check-out section where you can enter delivery details and card information.
 * Payment processing seems like over-kill for this kind of project?
 * Make sure the website is fully responsive.
 * Add a Categories row in the WOB style. This will change up the repetitiveness of the normal rows.
-* Update images to higher-resolution ones so that when they navigate to details page the images aren't pixelated.
+* Find a way of filtering books that are added so that all of the subcategory sections are actually function.
+Probably best to use a tagging system?
 
 
-Recommandations taken from ChatGPT: 
+
+Recommendations taken from ChatGPT: 
 
 Product catalog: A feature that allows users to browse and search for books, view detailed information about each book, and add items to their shopping cart. This should be built using React components and should be able to efficiently update and re-render as the user interacts with the catalog.
 

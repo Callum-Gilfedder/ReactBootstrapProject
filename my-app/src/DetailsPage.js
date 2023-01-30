@@ -1,10 +1,10 @@
 export default function DetailsPage(props) {
     return (
         <div className="container">
-            <div class="container details-container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                        <div className="details-img-container">
+            <div class="container details-container" >
+                <div class="row" >
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" >
+                        <div className="details-img-container" >
                             <img src={props.image} className="details-img"></img>
                         </div>
                     </div>

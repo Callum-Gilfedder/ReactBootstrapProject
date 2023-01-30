@@ -17,7 +17,8 @@ import book4 from './images/book4.jpg'
 import book5 from './images/book5.jpg'
 import book6 from './images/book6.jpg'
 import img1 from './images/img1.webp'
-import img2 from './images/img2.jpg'
+import img2 from './images/img2.webp'
+import img3 from "./images/img3.jpg"
 import ExploreCategory from './ExploreCategory';
 
 

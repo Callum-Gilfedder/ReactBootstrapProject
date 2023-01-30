@@ -1,6 +1,7 @@
 import CarouselImageBook from "./images/CarouselImageBook.png" 
 import img1 from "./images/img1.webp"
 import img2 from "./images/img2.webp"
+import img3 from "./images/img3.jpg"
 import CarouselImageBook2 from "./images/CarouselImageBook2.png"
 import CarouselImageBook3 from "./images/CarouselImageBook3.png"
 
@@ -36,7 +37,7 @@ export default function Carousel() {
 
               <button type="button" className="btn btn-outline-light carousel-button">Order now</button>
 
-              <img src={img1} className="w-100 carousel-background-img" alt=""/>
+              <img src={img3} className="w-100 carousel-background-img" alt=""/>
               <img src={CarouselImageBook3} className="d-block w-100 small-carousel-img d-inline" alt=""/>            </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
