@@ -26,7 +26,7 @@ export default function Card(props) {
                         <figure className="text-center">
                         <blockquote className="blockquote">
                             
-                            <p> {props.title}</p> 
+                        <Link to={"/"+ props.title.replace(/\s+/g, '')} style={{textDecoration: "none", color: "black" }}><p> {props.title}</p> </Link>
                             
                         </blockquote>
                         <figcaption className="blockquote-footer">
@@ -34,7 +34,7 @@ export default function Card(props) {
                         </figcaption>
                         <div className="bottom-text"> { props.type } </div> 
                         <div className="bottom-text"> <s> { props.oldPrice}</s> {props.newPrice} </div> 
-                        <button type="button" className="btn btn-outline-dark btn-sm" style={{marginRight: "1rem"}}>Info</button>
+                        <Link to={"/"+ props.title.replace(/\s+/g, '')} style={{textDecoration: "none", color: "black" }}><button type="button" className="btn btn-outline-dark btn-sm" style={{marginRight: "1rem"}}>Info</button></Link>
 
                         <button type="button" className="btn btn-outline-dark btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Add to Basket</button>
 
