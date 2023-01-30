@@ -8,7 +8,8 @@ import "bootstrap/dist/js/bootstrap";
 import NavbarMinor from './NavbarMinor.js'
 import Categories from './Categories.js'
 import Login from './Login.js'
-import DetailsPage from './DetailsPage';
+import Register from './Register.js'
+import DetailsPage from './DetailsPage.js';
 import book1 from './images/book1.jpg'
 import book2 from './images/book2.jpg'
 import book3 from './images/book3.jpg'
@@ -41,7 +42,8 @@ function App() {
           <Route path="/ImGladMyMomDied" element= {<DetailsPage title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4} />}></Route>
           <Route path="/TheCatcherInTheRye" element= {<DetailsPage title="The Catcher In The Rye" author="J. D. Salinger" type="Hardback & Paperback" oldPrice = "£10.00" newPrice ="£8.00" image={book5} />}></Route>
           <Route path="/AClockworkOrange" element= {<DetailsPage title="A Clockwork Orange" author="Anthony Burgess" type="Hardback Only" oldPrice = "8.00" newPrice ="£4.50" image={book6}/>}></Route>
-
+          <Route path="/Login" element= {<Login/>}></Route>
+          <Route path="/Register" element= {<Register/>}></Route>
 
         </Routes>
         <Footer />
