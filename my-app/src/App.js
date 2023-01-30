@@ -10,7 +10,7 @@ import Categories from './Categories.js'
 import Login from './Login.js'
 import Register from './Register.js'
 import DetailsPage from './DetailsPage.js';
-import book1 from './images/book1.jpg'
+import book1 from './images/book1.webp'
 import book2 from './images/book2.jpg'
 import book3 from './images/book3.jpg'
 import book4 from './images/book4.jpg'
