@@ -99,7 +99,7 @@ s {
 
 .footer {
     background-color: grey;
-    margin-top: 5vh;
+    margin-top: 20vh;
     width: 100vw;
     height: 35vh;
     position: absolute;
@@ -375,4 +375,45 @@ li {
     left: 25%;
     max-width: 50%;
     
+}
+
+.details-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+.details-title {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.details-text-secondary {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: grey;
+
+}
+
+.details-p { 
+    margin-top: 3vh;
+    max-width: 34vw;
+    margin-bottom: 3vh;
+}
+
+.details-img {
+    height: 70vh;
+    margin-left: 10rem;
+}
+
+.details-text-tertiary {
+    font-size: 1.75rem;
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.details-img {
+    border: solid 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
