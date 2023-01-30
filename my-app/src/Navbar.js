@@ -24,34 +24,34 @@ export default function Navbar() {
                      CATEGORIES 
                     </a>
                     <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#"> <Link to="/categories" style={{textDecoration: "none", color: "black" }}> View All </Link></a></li>
+                    <Link to="/categories" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#">  View All </a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Crime</a></li>
+                      <Link to="/categories/crime" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#">Crime</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Classics</a></li>
+                      <Link to="/categories/classics" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#">Classics</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Sci-Fi</a></li>
+                      <Link to="/categories/sciencefiction" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>Sci-Fi</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Fantasy</a></li>
+                      <Link to="/categories/fantasy" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>Fantasy</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Fiction</a></li>
+                      <Link to="/categories/fiction" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>Fiction</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Non-Fiction</a></li>
+                      <Link to="/categories/nonfiction" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>Non-Fiction</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Geography</a></li>
+                      <Link to="/categories/geography" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>Geography</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">History</a></li>
+                      <Link to="/categories/history" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>History</a></li></Link>
                       <li><hr class="dropdown-divider"></hr></li>
 
-                      <li><a className="dropdown-item" href="#">Popular Science</a></li>
+                      <Link to="/categories/popularscience" style={{textDecoration: "none", color: "black" }}><li><a className="dropdown-item" href="#" style={{textDecoration: "none", color: "black" }}>Popular Science</a></li></Link>
 
 
                     </ul>
