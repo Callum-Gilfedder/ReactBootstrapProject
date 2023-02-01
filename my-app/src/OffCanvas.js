@@ -6,10 +6,20 @@ export default function OffCanvas() {
         <h5 className="offcanvas-title" id="offcanvasScrollingLabel">Your Basket</h5>
         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
+
         <hr className="offcanvas-hr"></hr>
-        <div className="basket-item-container"></div>
-        <div className="basket-item-container"></div>
-        <div className="basket-item-container"></div>
+        <div className="basket-item-container">
+                
+
+        </div>
+        <div className="basket-item-container">
+
+
+        </div>
+        <div className="basket-item-container">
+
+
+        </div>
         
         <div className="offcanvas-body">
             
