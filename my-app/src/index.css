@@ -145,19 +145,18 @@ hr {
     width: 100%;
 }
 
-.hover-add-basket {
+/* .hover-add-basket {
     position: absolute;
     width: 5vh;
     height: 5vh;
     margin-left: 8.9vw;
-    
-
     border-radius: 2px;
     text-align: center;
     font-size: 1.5rem;
+    border-radius: 2px;
     color: white;
     
-}
+} */
 
 .btn-lg {
     font-size: 1.25rem;

@@ -42,7 +42,7 @@ function App() {
           <Route path="/AClockworkOrange" element= {<DetailsPage title="A Clockwork Orange" author="Anthony Burgess" type="Hardback Only" oldPrice = "8.00" newPrice ="£4.50" image={book6}/>}></Route>
           
           {/* Contact, Login and Registration */}
-          <Route path="/contact" element= {<Contact />}></Route>
+          <Route path="/Contact" element= {<Contact />}></Route>
           <Route path="/Login" element= {<Login/>}></Route>
           <Route path="/Register" element= {<Register/>}></Route>
 
@@ -57,6 +57,11 @@ function App() {
           <Route path="/categories/Geography" element= {<ExploreCategory category="Geography"></ExploreCategory>}></Route>
           <Route path="/categories/History" element= {<ExploreCategory category="History"></ExploreCategory>}></Route>
           <Route path="/categories/PopularScience" element= {<ExploreCategory category="Popular Science"></ExploreCategory>}></Route>
+          <Route path="/categories/NewIn" element= {<ExploreCategory category="New In"></ExploreCategory>}></Route>
+          <Route path="/categories/BestSellers" element= {<ExploreCategory category="Best Sellers"></ExploreCategory>}></Route>
+          <Route path="/categories/PreOrders" element= {<ExploreCategory category="Pre-orders"></ExploreCategory>}></Route>
+          <Route path="/categories/SpecialEditions" element= {<ExploreCategory category="Special Editions"></ExploreCategory>}></Route>
+          <Route path="/categories/Biographies" element= {<ExploreCategory category="Biographies"></ExploreCategory>}></Route>
 
 
         </Routes>
