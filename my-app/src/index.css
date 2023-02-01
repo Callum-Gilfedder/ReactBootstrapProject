@@ -101,7 +101,7 @@ s {
 
 .footer {
     background-color: grey;
-    margin-top: 20vh;
+    margin-top: 40vh;
     width: 100vw;
     height: 35vh;
     position: absolute;
@@ -438,15 +438,17 @@ li {
     object-fit: contain;
     margin-top: 0px;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 100px;
-    margin-bottom: 0vh;
+    margin-bottom: 0.5rem;
+    opacity: 70%;
+
     transition: all 0.2s;
 }
 
 .small-img-categories:hover {
-    opacity: 70%;
-    height: 90%;
+    opacity: 50%;
+    height: 80%;
 }
 
 .category-row {
