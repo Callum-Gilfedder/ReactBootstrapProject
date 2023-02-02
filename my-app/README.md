@@ -1,3 +1,11 @@
+**Priority To-do**
+* Add category row to home page.
+* Make the login / registration functional.
+* Make the basket functional.
+* Add a checkout page.
+
+
+
 **Features to add**
 * Add login / sign-up.
 * User authentication? May require some form of a backend.
