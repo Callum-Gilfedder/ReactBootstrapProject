@@ -101,7 +101,7 @@ s {
 
 .footer {
     background-color: grey;
-    margin-top: 40vh;
+    margin-top: 60vh;
     width: 100vw;
     height: 35vh;
     position: absolute;
@@ -453,5 +453,12 @@ li {
 .category-row {
     margin-bottom: 3rem;
 }
+
+.category-container {
+    margin-bottom: 0rem;
+    height: 38vh;
+}
+
+
 
 

@@ -1,12 +1,13 @@
 **Priority To-do**
-* Add category row to home page.
 * Make the login / registration functional.
 * Make the basket functional.
 * Add a checkout page.
+* Create banners to add variety to home page?
 
 
 
 **Features to add**
+* Need to add loads of different books instead of repeating the same 6.
 * Add login / sign-up.
 * User authentication? May require some form of a backend.
 * Maybe implement a book API so they can actually search for books.
@@ -14,7 +15,6 @@
 * Add check-out section where you can enter delivery details and card information.
 * Payment processing seems like over-kill for this kind of project?
 * Make sure the website is fully responsive.
-* Add a Categories row in the WOB style. This will change up the repetitiveness of the normal rows.
 * Find a way of filtering books that are added so that all of the subcategory sections are actually function.
 Probably best to use a tagging system?
 

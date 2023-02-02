@@ -20,12 +20,14 @@ import img1 from './images/img1.webp'
 import img2 from './images/img2.webp'
 import img3 from "./images/img3.jpg"
 import ExploreCategory from './ExploreCategory';
+import ScrollToTop from './ScrollToTop';
 
 
 function App() {
   return (
     <div className="App">
       <Router >
+        <ScrollToTop />
         <Navbar />
         <NavbarMinor />
         <Routes> 
