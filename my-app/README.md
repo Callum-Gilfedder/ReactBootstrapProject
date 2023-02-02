@@ -4,6 +4,11 @@
 * Add a checkout page.
 * Create banners to add variety to home page?
 
+**Shopping cart to-do**
+* I think I can use Context API to save state over components. I can use the Context in the highest
+level component then I can access and modify the context as needed in other components?
+* Quickly go over context api to learn.
+
 
 
 **Features to add**
