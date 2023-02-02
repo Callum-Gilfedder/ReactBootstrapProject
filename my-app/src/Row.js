@@ -16,7 +16,7 @@ export default function Row(props) {
         <hr></hr>
         <div className="display-3 d-inline"> {props.rowtitle}  </div>
             <div className="row align-items-start">
-                <Card title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1}/>
+                <Card title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} setCount={props.setCount} count={props.count}/>
                 <Card title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2} />
                 <Card title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3} />
                 <Card title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4} />

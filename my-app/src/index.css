@@ -296,11 +296,13 @@ li {
 .basket-item-container-left {
     height: 19vh;
     margin-top: 3%;
+    padding-right: 0;
 
 }
 .basket-item-container-right {
     height: 19vh;
     margin-top: 3%;
+    padding-left: 0;
 
 
 }

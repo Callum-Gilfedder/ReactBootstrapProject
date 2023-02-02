@@ -3,13 +3,13 @@ import Row from "./Row.js"
 import OffCanvas from "./OffCanvas.js"
 import CategoryRow from "./CategoryRow.js"
 
-export default function MainContent() {
+export default function MainContent(props) {
     return (
         <div>
             
             <Carousel />
             
-            <Row rowtitle = "New In"/>
+            <Row rowtitle = "New In" setCount = {props.setCount} count={props.count}/>
             <CategoryRow/>
 
             <Row rowtitle = "Best Sellers" />
@@ -18,7 +18,7 @@ export default function MainContent() {
             <Row rowtitle = "Collection" />
 
             {/* OffCanvas */}
-            <OffCanvas />
+            <OffCanvas setCount = {props.setCount} count={props.count}/>
 
 
 

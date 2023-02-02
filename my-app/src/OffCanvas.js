@@ -1,7 +1,7 @@
 
 import OffCanvasItem from "./OffCanvasItem.js"
 
-export default function OffCanvas() {
+export default function OffCanvas(props) {
     return (
         <div className="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div className="offcanvas-header">
@@ -11,13 +11,13 @@ export default function OffCanvas() {
 
         <hr className="offcanvas-hr"></hr>
 
-        <OffCanvasItem />
+        {props.count && <OffCanvasItem setCount={props.setCount} count={props.count}/>}
         <hr></hr>
 
-        <OffCanvasItem />
+        {props.count && <OffCanvasItem setCount={props.setCount} count={props.count}/>}
         <hr></hr>
 
-        <OffCanvasItem />
+        {props.count && <OffCanvasItem setCount={props.setCount} count={props.count}/>}
         <hr></hr>
 
 

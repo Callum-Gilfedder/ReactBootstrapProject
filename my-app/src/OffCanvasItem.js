@@ -13,9 +13,9 @@ export default function OffCanvasItem (props) {
                     <b> <p>Im Glad My Mom Died</p> </b>
                     <p> <s> £15.00</s>  £10.00 </p>
                     <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-secondary"> + </button>
-                    <button type="button" class="btn btn-outline-secondary"> 10</button>
-                    <button type="button" class="btn btn-outline-secondary"> - </button>
+                    <button type="button" class="btn btn-outline-secondary" onClick={() => props.setCount(props.count - 1)}> - </button>
+                    <button type="button" class="btn btn-outline-secondary"> {props.count}</button>
+                    <button type="button" class="btn btn-outline-secondary" onClick={() => props.setCount(props.count + 1)}> + </button>
                     </div>
 
                 </div>

@@ -21,9 +21,13 @@ import img2 from './images/img2.webp'
 import img3 from "./images/img3.jpg"
 import ExploreCategory from './ExploreCategory';
 import ScrollToTop from './ScrollToTop';
+import { useState } from "react"
 
 
 function App() {
+  const [count, setCount] = useState(0)
+  console.log(count)
+  
   return (
     <div className="App">
       <Router >
@@ -34,7 +38,7 @@ function App() {
         <Routes> 
 
           {/* Home */}
-          <Route path="/" element= {<MainContent />}></Route>
+          <Route path="/" element= {<MainContent setCount={setCount} count={count}/>}></Route>
 
           {/* Individual book details */}
           <Route path="/1984" element= {<DetailsPage title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} />}></Route>
