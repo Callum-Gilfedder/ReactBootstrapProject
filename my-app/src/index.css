@@ -73,6 +73,10 @@ img {
     margin-bottom: 1vh;
 }
 
+.offcanvas-img {
+    height: 80%;
+}
+
 p {
     color: black;
 }
@@ -144,6 +148,8 @@ hr {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
 }
+
+
 
 /* .hover-add-basket {
     position: absolute;
@@ -279,12 +285,28 @@ li {
 }
 
 .basket-item-container {
-    margin-left: 10%;
+    margin-left: 0%;
     width: 80%;
-    height: 25%;
-    background-color: black;
-    margin-bottom: 2%;
+    height: 20%;
+    margin-bottom: 0%;
+
+
 }
+
+.basket-item-container-left {
+    height: 19vh;
+    margin-top: 3%;
+
+}
+.basket-item-container-right {
+    height: 19vh;
+    margin-top: 3%;
+
+
+}
+
+
+
 
 .contact-image-container {
     background-color: lightblue;
@@ -458,7 +480,4 @@ li {
     margin-bottom: 0rem;
     height: 38vh;
 }
-
-
-
 

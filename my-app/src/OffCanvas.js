@@ -1,4 +1,6 @@
 
+import OffCanvasItem from "./OffCanvasItem.js"
+
 export default function OffCanvas() {
     return (
         <div className="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
@@ -8,18 +10,18 @@ export default function OffCanvas() {
         </div>
 
         <hr className="offcanvas-hr"></hr>
-        <div className="basket-item-container">
-                
 
-        </div>
-        <div className="basket-item-container">
+        <OffCanvasItem />
+        <hr></hr>
+
+        <OffCanvasItem />
+        <hr></hr>
+
+        <OffCanvasItem />
+        <hr></hr>
 
 
-        </div>
-        <div className="basket-item-container">
 
-
-        </div>
         
         <div className="offcanvas-body">
             

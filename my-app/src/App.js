@@ -27,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <Router >
+        {/* ScrollToTop is from React docs */}
         <ScrollToTop />
         <Navbar />
         <NavbarMinor />
