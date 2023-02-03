@@ -21,7 +21,7 @@ export default function DetailsPage(props) {
 
                         <button type="button" className="btn btn-dark btn-md details-btn" style={{marginRight: "1rem"}}>Checkout</button>
 
-                        <button type="button" className="btn btn-dark btn-md details-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Add to Basket</button>
+                        <button type="button" className="btn btn-dark btn-md details-btn" onClick={() => {props.setCount(props.count + 1)}}>Add to Basket</button>
                     </div>
                 </div>
                 </div>

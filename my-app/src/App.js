@@ -22,6 +22,7 @@ import img3 from "./images/img3.jpg"
 import ExploreCategory from './ExploreCategory';
 import ScrollToTop from './ScrollToTop';
 import { useState } from "react"
+import OffCanvas from './OffCanvas';
 
 
 function App() {
@@ -41,12 +42,12 @@ function App() {
           <Route path="/" element= {<MainContent setCount={setCount} count={count}/>}></Route>
 
           {/* Individual book details */}
-          <Route path="/1984" element= {<DetailsPage title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} />}></Route>
-          <Route path="/TheGreatGatsby" element= {<DetailsPage title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>}></Route>
-          <Route path="/TheLittlePrince" element= {<DetailsPage title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>}></Route>
-          <Route path="/ImGladMyMomDied" element= {<DetailsPage title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4} />}></Route>
-          <Route path="/TheCatcherInTheRye" element= {<DetailsPage title="The Catcher In The Rye" author="J. D. Salinger" type="Hardback & Paperback" oldPrice = "£10.00" newPrice ="£8.00" image={book5} />}></Route>
-          <Route path="/AClockworkOrange" element= {<DetailsPage title="A Clockwork Orange" author="Anthony Burgess" type="Hardback Only" oldPrice = "8.00" newPrice ="£4.50" image={book6}/>}></Route>
+          <Route path="/1984" element= {<DetailsPage title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} setCount={setCount} count={count}/>}></Route>
+          <Route path="/TheGreatGatsby" element= {<DetailsPage title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2} setCount={setCount} count={count}/>}></Route>
+          <Route path="/TheLittlePrince" element= {<DetailsPage title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3} setCount={setCount} count={count}/>}></Route>
+          <Route path="/ImGladMyMomDied" element= {<DetailsPage title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4} setCount={setCount} count={count}/>}></Route>
+          <Route path="/TheCatcherInTheRye" element= {<DetailsPage title="The Catcher In The Rye" author="J. D. Salinger" type="Hardback & Paperback" oldPrice = "£10.00" newPrice ="£8.00" image={book5} setCount={setCount} count={count}/>}></Route>
+          <Route path="/AClockworkOrange" element= {<DetailsPage title="A Clockwork Orange" author="Anthony Burgess" type="Hardback Only" oldPrice = "8.00" newPrice ="£4.50" image={book6} setCount={setCount} count={count}/>}></Route>
           
           {/* Contact, Login and Registration */}
           <Route path="/Contact" element= {<Contact />}></Route>
@@ -72,6 +73,7 @@ function App() {
 
 
         </Routes>
+        <OffCanvas count={count} setCount={setCount}/>
         <Footer />
       </Router>
     </div>

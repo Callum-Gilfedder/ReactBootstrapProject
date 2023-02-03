@@ -11,13 +11,12 @@ export default function OffCanvasItem (props) {
                 </div>
                 <div class="col-sm basket-item-container-right">
                     <b> <p>Im Glad My Mom Died</p> </b>
-                    <p> <s> £15.00</s>  £10.00 </p>
+                    <p> <s> £15.00</s>  {props.total} </p>
                     <div class="btn-group" role="group" aria-label="Basic outlined example">
                     <button type="button" class="btn btn-outline-secondary" onClick={() => props.setCount(props.count - 1)}> - </button>
                     <button type="button" class="btn btn-outline-secondary"> {props.count}</button>
                     <button type="button" class="btn btn-outline-secondary" onClick={() => props.setCount(props.count + 1)}> + </button>
                     </div>
-
                 </div>
             </div>
 
