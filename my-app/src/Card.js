@@ -62,7 +62,10 @@ export default function Card(props) {
                         </figure>              
                     
                     </blockquote>
+                    
                     </div>
+
+
 
 
     )

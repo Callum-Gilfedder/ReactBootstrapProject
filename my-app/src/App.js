@@ -36,12 +36,23 @@ function App() {
   const [count3, setCount3] = useState(0)
   const [count4, setCount4] = useState(0)
   const [count5, setCount5] = useState(0)
-  const [count6, setCount6] = useState(0)
+  const [count6, setCount6] = useState(0) 
+  const [newPrice1, setNewPrice1] = useState(10.00) 
+  const [newPrice2, setNewPrice2] = useState(6.50)
+  const [newPrice3, setNewPrice3] = useState(8.99)
+  const [newPrice4, setNewPrice4] = useState(15.00)
+  const [newPrice5, setNewPrice5] = useState(8.00)
+  const [newPrice6, setNewPrice6] = useState(4.50)
+
+
+
+
+
 
   
   return (
     <div className="App">
-    <MyContext.Provider value={{count, setCount, count1, count2, count3, count4, count5, count6, setCount1, setCount2, setCount3, setCount4, setCount5, setCount6}}>
+    <MyContext.Provider value={{count, setCount, count1, count2, count3, count4, count5, count6, setCount1, setCount2, setCount3, setCount4, setCount5, setCount6, newPrice1, newPrice2, newPrice3, newPrice4, newPrice5, newPrice6}}>
       <Router >
 
         {/* ScrollToTop is from React docs */}
