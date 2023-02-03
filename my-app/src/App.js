@@ -31,11 +31,17 @@ function App() {
 
 
   const [count, setCount] = useState(0)
-  console.log(count)
+  const [count1, setCount1] = useState(0)
+  const [count2, setCount2] = useState(0)
+  const [count3, setCount3] = useState(0)
+  const [count4, setCount4] = useState(0)
+  const [count5, setCount5] = useState(0)
+  const [count6, setCount6] = useState(0)
+
   
   return (
     <div className="App">
-    <MyContext.Provider value={{count, setCount}}>
+    <MyContext.Provider value={{count, setCount, count1, count2, count3, count4, count5, count6, setCount1, setCount2, setCount3, setCount4, setCount5, setCount6}}>
       <Router >
 
         {/* ScrollToTop is from React docs */}
