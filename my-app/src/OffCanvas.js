@@ -26,14 +26,15 @@ export default function OffCanvas(props) {
 
         <hr className="offcanvas-hr"></hr>
 
-        {count1 && <OffCanvasItem setCount={setCount1} count={count1} title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} />}
-        <hr></hr>
+        {count1 ? <> <OffCanvasItem setCount={setCount1} count={count1} title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} /> <hr></hr> </> : null}
 
-        {count2 && <OffCanvasItem setCount={setCount2} count={count2} title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>}
-        <hr></hr>
+        {count2 ? <><OffCanvasItem setCount={setCount2} count={count2} title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>         <hr></hr></> : null}
 
-        {count3 && <OffCanvasItem setCount={setCount3} count={count3} title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>}
-        <hr></hr>
+        {count3 ? <><OffCanvasItem setCount={setCount3} count={count3} title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>     <hr></hr></> : null}
+
+
+
+    
 
 
 
