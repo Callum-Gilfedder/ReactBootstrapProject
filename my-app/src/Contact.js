@@ -20,7 +20,7 @@ export default function Contact () {
                     </div>
                     <div className="contact-card-inner-container-lower">
 
-                    <button type="button" class="btn btn-dark contact-card-buttons">Contact our support team</button>
+                    <button type="button" class="btn btn-dark contact-card-buttons">Contact our general support team</button>
                     <div className="contact-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </div>
 
                     </div>
@@ -37,7 +37,7 @@ export default function Contact () {
 
                     </div>
                     <div className="contact-card-inner-container-lower">
-                    <button type="button" class="btn btn-dark contact-card-buttons">Contact our support team</button>
+                    <button type="button" class="btn btn-dark contact-card-buttons">Contact our account support team</button>
                     <div className="contact-card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </div>
                     </div>
                 </div>

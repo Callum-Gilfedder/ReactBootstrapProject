@@ -24,6 +24,8 @@ import ScrollToTop from './ScrollToTop';
 import { useState, useContext, createContext } from "react"
 import OffCanvas from './OffCanvas';
 
+import { MyContext } from "./Contexts/Context.js"
+
 
 function App() {
 
@@ -33,6 +35,7 @@ function App() {
   
   return (
     <div className="App">
+    <MyContext.Provider value={{count, setCount}}>
       <Router >
 
         {/* ScrollToTop is from React docs */}
@@ -80,6 +83,7 @@ function App() {
         <Footer />
 
       </Router>
+      </MyContext.Provider>
 
     </div>
   );
