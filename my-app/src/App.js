@@ -21,17 +21,20 @@ import img2 from './images/img2.webp'
 import img3 from "./images/img3.jpg"
 import ExploreCategory from './ExploreCategory';
 import ScrollToTop from './ScrollToTop';
-import { useState } from "react"
+import { useState, useContext, createContext } from "react"
 import OffCanvas from './OffCanvas';
 
 
 function App() {
+
+
   const [count, setCount] = useState(0)
   console.log(count)
   
   return (
     <div className="App">
       <Router >
+
         {/* ScrollToTop is from React docs */}
         <ScrollToTop />
         <Navbar />
@@ -75,7 +78,9 @@ function App() {
         </Routes>
         <OffCanvas count={count} setCount={setCount}/>
         <Footer />
+
       </Router>
+
     </div>
   );
 }
