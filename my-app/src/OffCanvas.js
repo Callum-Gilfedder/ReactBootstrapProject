@@ -32,7 +32,7 @@ export default function OffCanvas(props) {
         {count2 && <OffCanvasItem setCount={setCount2} count={count2} title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>}
         <hr></hr>
 
-        {count3 && <OffCanvasItem setCount={setCount3} count={count3}/>}
+        {count3 && <OffCanvasItem setCount={setCount3} count={count3} title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>}
         <hr></hr>
 
 

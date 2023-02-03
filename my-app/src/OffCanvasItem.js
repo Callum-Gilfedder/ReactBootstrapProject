@@ -1,7 +1,7 @@
 
 import book1 from './images/book1.webp'
 import { MyContext } from "./Contexts/Context.js"
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 
 
 
@@ -12,10 +12,28 @@ export default function OffCanvasItem (props) {
     const { count4, setCount4 } = useContext(MyContext);
     const { count5, setCount5 } = useContext(MyContext);
     const { count6, setCount6 } = useContext(MyContext);   
+    
 
 
 
-    let count = 0;
+    
+    function determineBook() {
+        if (props.title == "1984") {
+            var count = count1
+        } else if (props.title == "The Great Gatsby") {
+            var count = count2
+        } else if (props.title == "The Little Prince") {
+            var count = count3
+        } else if (props.title == "Im Glad My Mom Died") {
+            var count = count4
+        } else if (props.title == "The Catcher In The Rye") {
+            var count = count5
+        } else if (props.title == "A Clockwork Orange") {
+            var count = count6
+        }
+        return count
+    }
+
     function handleClickPlus() {
         if (props.title == "1984") {
             setCount1(count1 + 1)
@@ -58,10 +76,10 @@ export default function OffCanvasItem (props) {
                 </div>
                 <div class="col-sm basket-item-container-right">
                     <b> <p> {props.title} </p> </b>
-                    <p> <s> {props.oldPrice}</s>  {props.newPrice} {count1} </p>
+                    <p> <s> {props.oldPrice}</s>  {props.newPrice} </p>
                     <div class="btn-group" role="group" aria-label="Basic outlined example">
                     <button type="button" class="btn btn-outline-secondary" onClick={handleClickMinus}> - </button>
-                    <button type="button" class="btn btn-outline-secondary"> {count2}</button>
+                    <button type="button" class="btn btn-outline-secondary"> {determineBook()}</button>
                     <button type="button" class="btn btn-outline-secondary" onClick={handleClickPlus}> + </button>
                     </div>
                 </div>
