@@ -38,7 +38,7 @@ export default function OffCanvas(props) {
         <div className="offcanvas-body">
             
 
-        <div className="offcanvas-title">Total Cost: £{((count1 * newPrice1) + (count2 * newPrice2) + (count3 * newPrice3) + (count4 * newPrice4) + (count5  * newPrice5) + (count6 * newPrice6)).toFixed(2)}</div>
+        <div className="offcanvas-title">Total Cost: £{((count1 * newPrice1) + (count2 * newPrice2) + (count3 * newPrice3) + (count4 * newPrice4) + (count5  * newPrice5) + (count6 * newPrice6)).toFixed(2)}</div> <button type="button" className="btn btn-outline-dark btn-md w-100"> Proceed to Checkout </button> 
         </div>
         </div>
 
