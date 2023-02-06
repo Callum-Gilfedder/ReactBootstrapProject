@@ -17,7 +17,9 @@ export default function OffCanvas(props) {
     const { count5, setCount5 } = useContext(MyContext);
     const { count6, setCount6 } = useContext(MyContext);    
     const { newPrice1, newPrice2, newPrice3, newPrice4, newPrice5, newPrice6 } = useContext(MyContext);
+    
 
+    
 
     return (
         <div className="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
