@@ -11,7 +11,6 @@ export default function CategoryRow () {
         <div className="container category-container">
         <div className="display-3 d-inline"> Popular Categories  </div>
         <hr></hr>
-
             <div className="row align-items-start" >
             <CategoryCard category="Fiction" image={fictionimage}/>
             <CategoryCard category="Non-Fiction" image={nonfictionimage}/>
