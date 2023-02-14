@@ -1,4 +1,5 @@
 **Priority To-do**
+* Test
 * Make the login / registration functional.
 * Make the basket functional.
 * Add a checkout page.
