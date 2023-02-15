@@ -56,7 +56,7 @@ export default function Card(props) {
                         <div className="bottom-text"> <s> { props.oldPrice}</s> {props.newPrice} </div> 
                         <Link to={"/"+ props.title.replace(/\s+/g, '')} style={{textDecoration: "none", color: "black" }}><button type="button" className="btn btn-outline-dark btn-sm" style={{marginRight: "1rem"}}>Info</button></Link>
 
-                        <button type="button" className="btn btn-outline-dark btn-sm" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" onClick={handleClickPlus}>Add to Basket</button>
+                        <button type="button" className="btn btn-outline-dark btn-sm" aria-controls="offcanvasScrolling" onClick={handleClickPlus}>Add to Basket</button>
 
 
                         </figure>              
