@@ -18,8 +18,7 @@ export default function OffCanvas(props) {
     const { count6, setCount6 } = useContext(MyContext);    
     const { newPrice1, newPrice2, newPrice3, newPrice4, newPrice5, newPrice6 } = useContext(MyContext);
     
-
-    
+    let counter = 0;
 
     return (
         <div className="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
@@ -30,7 +29,7 @@ export default function OffCanvas(props) {
 
         <hr className="offcanvas-hr"></hr>
 
-        {count1 ? <> <OffCanvasItem setCount={setCount1} count={count1} title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1} /> <hr></hr> </> : null}
+        {count1 ? <><OffCanvasItem setCount={setCount1} count={count1} title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1}/><hr></hr></> : null}
         {count2 ? <><OffCanvasItem setCount={setCount2} count={count2} title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>         <hr></hr></> : null}
         {count3 ? <><OffCanvasItem setCount={setCount3} count={count3} title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>     <hr></hr></> : null}
         {count4 ? <><OffCanvasItem setCount={setCount4} count={count4} title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4}/>     <hr></hr></> : null}
