@@ -29,12 +29,12 @@ export default function OffCanvas(props) {
 
         <hr className="offcanvas-hr"></hr>
 
-        {count1 && itemCount < 3 ? <> {itemCount = itemCount + 1}<OffCanvasItem setCount={setCount1} count={count1} title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1}/><hr></hr></> : null}
-        {count2 && itemCount < 3 ? <> {itemCount = itemCount + 1}<OffCanvasItem setCount={setCount2} count={count2} title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>         <hr></hr></> : null}
-        {count3 && itemCount < 3 ? <> {itemCount = itemCount + 1}<OffCanvasItem setCount={setCount3} count={count3} title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>     <hr></hr></> : null}
-        {count4 && itemCount < 3 ? <> {itemCount = itemCount + 1}<OffCanvasItem setCount={setCount4} count={count4} title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4}/>     <hr></hr></> : null}
-        {count5 && itemCount < 3 ? <> {itemCount = itemCount + 1}<OffCanvasItem setCount={setCount5} count={count5} title="The Catcher In The Rye" author="J. D. Salinger" type="Hardback & Paperback" oldPrice = "£10.00" newPrice ="£8.00" image={book5}/>     <hr></hr></> : null}
-        {count6 && itemCount < 3 ? <> {itemCount = itemCount + 1}<OffCanvasItem setCount={setCount6} count={count6} title="A Clockwork Orange" author="Anthony Burgess" type="Hardback Only" oldPrice = "8.00" newPrice ="£4.50" image={book6}/>     <hr></hr></> : null}
+        {count1 && itemCount < 3 ? <> <div class="hidden"> {itemCount = itemCount + 1} </div> <OffCanvasItem setCount={setCount1} count={count1} title="1984" author="George Orwell" type="Hardback & Paperback" oldPrice = "£15.00" newPrice ="£10.00" image={book1}/><hr></hr></> : null}
+        {count2 && itemCount < 3 ? <> <div class="hidden"> {itemCount = itemCount + 1} </div> <OffCanvasItem setCount={setCount2} count={count2} title="The Great Gatsby" author="F. Scott. Fitzgerald" type="Paperback Only" oldPrice = "£10.00" newPrice ="£6.50" image={book2}/>         <hr></hr></> : null}
+        {count3 && itemCount < 3 ? <> <div class="hidden"> {itemCount = itemCount + 1} </div> <OffCanvasItem setCount={setCount3} count={count3} title="The Little Prince" author="A. D. Saint-Exupery" type="Hardback Only" oldPrice = "£11.00" newPrice ="£8.99" image={book3}/>     <hr></hr></> : null}
+        {count4 && itemCount < 3 ? <> <div class="hidden"> {itemCount = itemCount + 1} </div> <OffCanvasItem setCount={setCount4} count={count4} title="Im Glad My Mom Died" author="Jennette McCurdy" type="Hardback & Paperback" oldPrice = "£20.00" newPrice ="£15.00" image={book4}/>     <hr></hr></> : null}
+        {count5 && itemCount < 3 ? <> <div class="hidden"> {itemCount = itemCount + 1} </div> <OffCanvasItem setCount={setCount5} count={count5} title="The Catcher In The Rye" author="J. D. Salinger" type="Hardback & Paperback" oldPrice = "£10.00" newPrice ="£8.00" image={book5}/>     <hr></hr></> : null}
+        {count6 && itemCount < 3 ? <> <div class="hidden"> {itemCount = itemCount + 1} </div> <OffCanvasItem setCount={setCount6} count={count6} title="A Clockwork Orange" author="Anthony Burgess" type="Hardback Only" oldPrice = "8.00" newPrice ="£4.50" image={book6}/>     <hr></hr></> : null}
 
         <div className="offcanvas-body">
             

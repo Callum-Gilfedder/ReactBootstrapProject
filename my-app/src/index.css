@@ -484,3 +484,7 @@ li {
     height: 38vh;
 }
 
+.hidden {
+    display: none;
+}
+
