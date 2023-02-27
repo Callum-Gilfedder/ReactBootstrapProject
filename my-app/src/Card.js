@@ -21,6 +21,7 @@ export default function Card(props) {
     const { count6, setCount6 } = useContext(MyContext);
     
     function handleClickPlus() {
+        props.setPopUpTriggered(true)
         if (props.title == "1984") {
             setCount1(count1 + 1)
         } else if (props.title == "The Great Gatsby") {
