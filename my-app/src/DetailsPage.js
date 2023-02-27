@@ -1,9 +1,15 @@
 
 import { useContext, useState } from "react"
 import { MyContext } from './Contexts/Context'
+import PopUp from "./PopUp";
 
 
 export default function DetailsPage(props) {
+    const [popUpTriggered, setPopUpTriggered] = useState(false)
+    function deactivatePopUp() {
+        setPopUpTriggered(false);
+    }
+    setTimeout(deactivatePopUp, 5000)    
     const { count1, setCount1 } = useContext(MyContext);
     const { count2, setCount2 } = useContext(MyContext);
     const { count3, setCount3 } = useContext(MyContext);
@@ -11,7 +17,10 @@ export default function DetailsPage(props) {
     const { count5, setCount5 } = useContext(MyContext);
     const { count6, setCount6 } = useContext(MyContext);
     
+
+    
     function handleClickPlus() {
+        setPopUpTriggered(true)
         if (props.title == "1984") {
             setCount1(count1 + 1)
         } else if (props.title == "The Great Gatsby") {
@@ -29,6 +38,7 @@ export default function DetailsPage(props) {
 
 
     return (
+        <>
         <div className="container">
             <div class="container details-container" >
                 <div class="row" >
@@ -56,6 +66,8 @@ export default function DetailsPage(props) {
                 </div>
 
         </div>
+        { popUpTriggered ? <PopUp></PopUp> : null}
+        </>
         
     )
 }

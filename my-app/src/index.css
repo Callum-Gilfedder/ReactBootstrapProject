@@ -488,6 +488,12 @@ li {
     display: none;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; bottom: -10%}
+    100% { opacity: 1; bottom: 5%}
+  }
+  
+
 .pop-up {
     position: sticky;
     bottom: 5%;
@@ -500,11 +506,15 @@ li {
     font-family: 'Playfair Display', serif;
     border: solid 1px rgb(209, 208, 208);
     font-size: 1.5rem;
-    color: green;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
+    animation: fadeIn 0.5s;
 
 }
+
+
+
+
+

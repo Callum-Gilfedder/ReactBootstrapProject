@@ -3,7 +3,7 @@ import Row from "./Row.js"
 import OffCanvas from "./OffCanvas.js"
 import CategoryRow from "./CategoryRow.js"
 import PopUp from "./PopUp.js"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 export default function MainContent(props) {
     const [popUpTriggered, setPopUpTriggered] = useState(false)
