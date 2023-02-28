@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Playfair+Display&display=swap');
 
+/* BASE CSS */
 
 body {
     background-color:rgb(255, 255, 255);
@@ -515,6 +516,42 @@ li {
 }
 
 
+/* XLL BREAKPOINT */
+@media only screen and (max-width: 1400px) {
+    .nav {
+        display: none;
+    }
+
+    
+}
+
+/* L BREAKPOINT */
+@media only screen and (max-width: 1200px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .search-button {
+        width: 90%;
+    }
 
 
+}
 
+
+/* M BREAKPOINT */
+@media only screen and (max-width: 992px) {
+    .svgs {
+        display: none;
+    }
+}
+
+/* SM BREAKPOINT */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* XS BREAKPOINT  */
+@media only screen and (max-width: 576px) {
+
+}
