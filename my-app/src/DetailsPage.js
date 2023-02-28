@@ -2,6 +2,7 @@
 import { useContext, useState } from "react"
 import { MyContext } from './Contexts/Context'
 import PopUp from "./PopUp";
+import { Link } from "react-router-dom"
 
 
 export default function DetailsPage(props) {
@@ -58,7 +59,7 @@ export default function DetailsPage(props) {
                         <div className="details-text-tertiary"><s>{props.oldPrice}</s> </div>
                         <div className="details-text-tertiary">{props.newPrice} </div>
 
-                        <button type="button" className="btn btn-dark btn-md details-btn" style={{marginRight: "1rem"}}>Checkout</button>
+                        <Link to="/404-not-found"><button type="button" className="btn btn-dark btn-md details-btn" style={{marginRight: "1rem"}}>Checkout</button></Link>
 
                         <button type="button" className="btn btn-dark btn-md details-btn" onClick={handleClickPlus}>Add to Basket</button>
                     </div>

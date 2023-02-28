@@ -2,6 +2,7 @@
 import OffCanvasItem from "./OffCanvasItem.js"
 import { MyContext } from "./Contexts/Context.js"
 import { useContext } from "react"
+import { Link } from "react-router-dom"
 import book1 from './images/book1.webp'
 import book2 from './images/book2.jpg'
 import book3 from './images/book3.jpg'
@@ -39,7 +40,7 @@ export default function OffCanvas(props) {
         <div className="offcanvas-body">
             
 
-        <div className="offcanvas-title">Total Cost: £{((count1 * newPrice1) + (count2 * newPrice2) + (count3 * newPrice3) + (count4 * newPrice4) + (count5  * newPrice5) + (count6 * newPrice6)).toFixed(2)}</div> <button type="button" className="btn btn-outline-dark btn-md w-100"> Proceed to Checkout </button> 
+        <div className="offcanvas-title">Total Cost: £{((count1 * newPrice1) + (count2 * newPrice2) + (count3 * newPrice3) + (count4 * newPrice4) + (count5  * newPrice5) + (count6 * newPrice6)).toFixed(2)}</div> <Link to="/404-not-found"><button type="button" className="btn btn-outline-dark btn-md w-100"> Proceed to Checkout </button> </Link>
         </div>
         </div>
 

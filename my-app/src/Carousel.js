@@ -15,7 +15,7 @@ export default function Carousel() {
             <div className="carousel-text-heading">'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'</div>
               <div className="carousel-text-small"> - Person</div>
 
-              <Link to="/ConversationsWithFriends"><button type="button" className="btn btn-outline-light carousel-button">Order now</button></Link>
+              <Link to="/ImGladMyMomDied"><button type="button" className="btn btn-outline-light carousel-button">Order now</button></Link>
 
               <img src={img2} className="w-100 carousel-background-img" alt=""/>
               <img src={CarouselImageBook2} className="d-block w-100 small-carousel-img d-inline" alt=""/>
