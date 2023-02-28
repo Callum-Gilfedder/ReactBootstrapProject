@@ -522,6 +522,15 @@ li {
         display: none;
     }
 
+    .col-md-3 {
+        margin-bottom: 5vh;
+    }
+    .container {
+        margin-bottom: 53vh;
+    }
+
+
+    
     
 }
 
@@ -543,6 +552,15 @@ li {
         left: 40vw;
     
     }
+    .col-md-3 {
+        margin-bottom: 8vh;
+    }
+    .container {
+        margin-bottom: 60vh;
+    }
+
+
+
 
 }
 
@@ -574,6 +592,7 @@ li {
         top: 23vh;
     }
 
+    
     .carousel-button {
         display: none;
 
