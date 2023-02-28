@@ -61,7 +61,7 @@ export default function Navbar() {
                   </li>
                   <form className="d-flex search-button" role="search">
                   <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-                  <button className="btn btn-outline-dark" type="submit">Search</button>
+                  <Link to="/404-not-found" style={{textDecoration: "none", color: "black" }}><button className="btn btn-outline-dark" type="submit">Search</button></Link>
                   </form>
 
 
