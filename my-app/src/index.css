@@ -188,7 +188,7 @@ hr {
 }
 
 .carousel-text-heading {
-    font-size: 2rem;
+    font-size: 3.5vh;
     position: absolute;
     display: inline;
     top: 6vh;
@@ -535,6 +535,14 @@ li {
         width: 90%;
     }
 
+    .carousel-text-heading {
+        font-size: 2.5vh;
+    
+    }
+    .carousel-text-small {
+        left: 40vw;
+    
+    }
 
 }
 
@@ -544,14 +552,54 @@ li {
     .svgs {
         display: none;
     }
+    .carousel-text-heading {
+        font-size: 2.5vh;
+        max-width: 25vw;
+    
+    }
+    .carousel-text-small {
+        left: 41vw;
+        font-size: 1.0rem;
+    
+    }
+
+
 }
 
 /* SM BREAKPOINT */
 @media only screen and (max-width: 768px) {
+    .carousel-text-small {
+        left: 28vw;
+        font-size: 0.75rem;
+        top: 23vh;
+    }
 
+    .carousel-button {
+        display: none;
+
+    
+    }
 }
 
 /* XS BREAKPOINT  */
 @media only screen and (max-width: 576px) {
+
+
+}
+
+/* XXS BREAKPOINT  */
+@media only screen and (max-width: 430px) {
+    .small-carousel-img {
+        position: absolute;
+        object-fit: contain;
+        margin-top: 2px;
+        width: 100%;
+        height: 70%;
+        margin-left: 24vw;
+        z-index: 1;
+    }
+    .carousel-text-small {
+        display: none;
+    }
 
 }
