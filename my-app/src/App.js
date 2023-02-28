@@ -23,11 +23,13 @@ import ExploreCategory from './ExploreCategory';
 import ScrollToTop from './ScrollToTop';
 import { useState, useContext, createContext } from "react"
 import OffCanvas from './OffCanvas';
-
 import { MyContext } from "./Contexts/Context.js"
+import NotFound404 from './NotFound404';
 
 
 function App() {
+
+  
 
 
   const [count, setCount] = useState(0)
@@ -54,6 +56,9 @@ function App() {
         <Navbar />
         <NavbarMinor />
         <Routes> 
+
+          {/* Pages that haven't been created */}
+          <Route path="/404-not-found" element={<NotFound404/>}></Route>
 
           {/* Home */}
           <Route path="/" element= {<MainContent setCount={setCount} count={count}/>}></Route>
