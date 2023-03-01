@@ -12,7 +12,7 @@ export default function Card(props) {
 
 
     return (        
-                    <div className="col-2 col-2-categories col-xxl-2 col-md-3  col-sm-6">
+                    <div className="col-6 col-2-categories col-xxl-2 col-md-3  col-sm-6">
                         
                     
                     <Link to={"/categories/"+ props.category.replace(/\s+/g, '')} style={{textDecoration: "none", color: "black" }}><img src={props.image} className="small-img small-img-categories" alt="" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} /></Link>
