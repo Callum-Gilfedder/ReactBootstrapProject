@@ -20,6 +20,7 @@ export default function Card(props) {
     const { count5, setCount5 } = useContext(MyContext);
     const { count6, setCount6 } = useContext(MyContext);
     
+    
     function handleClickPlus() {
         props.setPopUpTriggered(true)
         if (props.title == "1984") {
