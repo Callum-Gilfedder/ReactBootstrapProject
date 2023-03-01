@@ -587,6 +587,21 @@ li {
         font-size: 1.0rem;
     
     }
+    .contact-card-title-large {
+        font-size: 4rem;
+
+        left: 20%;
+    }
+    .contact-img {
+        opacity: 50%;
+    }
+    .contact-card {
+
+        width: 75vw;
+
+    }
+
+    
 
 
 
@@ -645,6 +660,18 @@ li {
     }
     .lic {
         margin-top: 20vh;
+    }
+    .contact-card-text {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        max-width: 90%;
+        
+    }
+    .contact-card {
+
+        height: 50vh;
+
     }
 
 }
