@@ -562,6 +562,10 @@ li {
     .category-row {
         margin-bottom: 0rem;
     }
+    .footer {
+        margin-top: 100vh;
+
+    }
 
 
 
@@ -608,6 +612,7 @@ li {
     .lic {  
         font-size: 0.75rem;
     }
+
 
 
 }
