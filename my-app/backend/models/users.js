@@ -3,7 +3,8 @@ const mongoose = require("mongoose")
 const User = new mongoose.Schema({
     email: {
         type: String,
-        required: true
+        required: true,
+        unique: true,
     },
     password: {
         type: String,
@@ -15,6 +16,6 @@ const User = new mongoose.Schema({
     }
 }, {collection: "user-data"})
 
-const model = mongoose.model("UserData", User)
+const UserModel = mongoose.model("UserData", User)
 
-module.export = User
+module.exports = UserModel

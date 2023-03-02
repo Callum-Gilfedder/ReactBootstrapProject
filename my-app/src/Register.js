@@ -7,11 +7,10 @@ export default function Contact () {
 
    async function registerUser (event) {
         event.preventDefault()
-        const response = await fetch("http://localhost:3000/api/register", {
+        const response = await fetch("http://localhost:1337/api/register", {
             method: "POST",
             headers: {
                 "Content-type": "application/json",
-
             },
             body: JSON.stringify({
                 email, 
