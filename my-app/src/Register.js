@@ -24,6 +24,7 @@ export default function Contact () {
         if (data.status === "ok") {
             setRegisterState(true)
             setRegisterFailed(false)
+            window.location.href="/login"
         } else {
             setRegisterFailed(true)
             setRegisterState(false)

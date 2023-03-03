@@ -26,6 +26,7 @@ export default function Contact () {
         if (data.status === "ok") {
             setloginState(true)
             setLoginFailed(false)
+            window.location.href="/"
         } else {
             setLoginFailed(true)
             setloginState(false)
