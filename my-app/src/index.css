@@ -515,6 +515,15 @@ li {
 
 }
 
+.incorrect {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.correct {
+    color: green;
+    margin-bottom: 1rem;
+}
 
 /* XLL BREAKPOINT */
 @media only screen and (max-width: 1400px) {

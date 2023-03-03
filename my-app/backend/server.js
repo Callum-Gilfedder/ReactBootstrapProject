@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const app = express();
 const User = require("./models/users.js");
+const jwt = require("jsonwebtoken")
 
 app.use(cors());
 app.use(express.json());

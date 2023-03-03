@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import PopUp from "./PopUp"
 
 export default function Contact () {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const [loginState, setloginState] = useState("")
+    const [loginFailed, setLoginFailed] = useState(false)
+
+    
 
    async function loginUser (event) {
         event.preventDefault()
@@ -18,6 +23,13 @@ export default function Contact () {
             })
         })
         const data = await response.json()
+        if (data.status === "ok") {
+            setloginState(true)
+            setLoginFailed(false)
+        } else {
+            setLoginFailed(true)
+            setloginState(false)
+        }
         console.log(data)
     }
     return (
@@ -41,6 +53,10 @@ export default function Contact () {
                     <label className="form-check-label" for="exampleCheck1">Save Password</label>
                 
                 </div>
+                {loginState ? <div id="emailHelp" className="form-text correct">Sucessful login!</div> : null}
+                {loginFailed ? <div id="emailHelp" className="form-text incorrect">Incorrect username or password!</div> : null}
+
+
 
                 <button type="submit" className="btn btn-dark">Submit</button>
             </form>

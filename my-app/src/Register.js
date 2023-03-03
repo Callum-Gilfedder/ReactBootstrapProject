@@ -1,9 +1,11 @@
-import {useState } from "react"; 
+import { useState } from "react"; 
 
 export default function Contact () {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [confirmPassword, setConfirmPassword] = useState("")
+    const [registerState, setRegisterState] = useState("")
+    const [registerFailed, setRegisterFailed] = useState(false)
 
    async function registerUser (event) {
         event.preventDefault()
@@ -19,6 +21,13 @@ export default function Contact () {
             })
         })
         const data = await response.json()
+        if (data.status === "ok") {
+            setRegisterState(true)
+            setRegisterFailed(false)
+        } else {
+            setRegisterFailed(true)
+            setRegisterState(false)
+        }
         console.log(data)
     }
     return (
@@ -43,6 +52,9 @@ export default function Contact () {
                     <label className="form-check-label" for="exampleCheck1">Save Password</label>
                 
                 </div>
+                {registerState ? <div id="emailHelp" className="form-text correct">Sucessful registration!</div> : null}
+                {registerFailed ? <div id="emailHelp" className="form-text incorrect">Unsuccessful, please double check your email and passwords!</div> : null}
+
 
                 <button type="submit" className="btn btn-dark">Submit</button>
             </form>
