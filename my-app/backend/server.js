@@ -30,17 +30,19 @@ app.post("/api/register", async (req, res) => {
     console.log(req.body);
     });
 
-// app.post("/api/login", async (req, res) => {
-//   const user = await User.findOne({
-//     email: req.body.email,
-//     password: req.body.password,
-//   })
-//   if (user) {
-//     return res.json({status: "ok", user: true})
-//   } else {
-//     return res.json({status: "error", user: false})
-//   }
-// });
+app.post("/api/login", async (req, res) => {
+  const user = await User.findOne({
+    email: req.body.email,
+    password: req.body.password,
+  })
+  if (user) {
+    console.log("Sucessful login")
+    return res.json({status: "ok", user: true})
+  } else {
+    console.log("Failed login")
+    return res.json({status: "error", user: false})
+  }
+});
 
 app.listen(1337, () => {
   console.log("Server listening on port 1337");
